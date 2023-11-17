@@ -1,4 +1,6 @@
 <head>
+/* Global Styles */
+/* ================================================ */
 body {
     background-color: #0e0e1a; /* Dark blue background */
     color: #fff; /* White text */
@@ -6,9 +8,15 @@ body {
   }
   
   h1 {
+    text-align: center;
     color: #ffcc00; /* Yellow heading */
+    background-color: #6060d1; /* Dark blue background */
   }
-  
+  h2 {
+    text-align: center;
+   color: #6060d1;
+   background-color: #0e0e1a;
+  }
   p {
     line-height: 1.6; /* Increase line spacing for better readability */
   }
@@ -17,5 +25,81 @@ body {
     max-width: 800px; /* Limit content width for larger screens */
     margin: 0 auto; /* Center the container */
   }
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    /* Navigation Styles */
+/* ================================================ */
+  }
+    nav {
+      display: flex;
+      background-color: #1a1a1a;
+      padding: 10px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav li {
+      margin-right: 20px;
+    }
 
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      /* Image Styles */
+/* ================================================ */
+    }
+    img {
+      width: 300px;
+      height: 200px;
+    }
+      p {
+        margin-top: 10px;
+        font-style: italic;
+        color:aqua;
+    }
+      img {
+        background-color: #0e0e1a;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Table Styles */
+/* ================================================ */
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 2px;
+    }
+    th {
+      text-align: center;
+    }
+    th {
+      text-align: center;
+      /* Footer Styling */
+/* ================================================ */
+    }
+    footer {
+      text-align: center;
+      background-color: #e21d1d;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  a {
+    color: rgb(24, 112, 180);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+    
 </head>
