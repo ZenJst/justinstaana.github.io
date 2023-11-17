@@ -17,5 +17,7 @@ body {
     max-width: 800px; /* Limit content width for larger screens */
     margin: 0 auto; /* Center the container */
   }
-
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
 </head>
