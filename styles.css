@@ -1,0 +1,21 @@
+<head>
+body {
+    background-color: #0e0e1a; /* Dark blue background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  h1 {
+    color: #ffcc00; /* Yellow heading */
+  }
+  
+  p {
+    line-height: 1.6; /* Increase line spacing for better readability */
+  }
+  
+  .container {
+    max-width: 800px; /* Limit content width for larger screens */
+    margin: 0 auto; /* Center the container */
+  }
+
+</head>
